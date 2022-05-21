@@ -79,6 +79,47 @@
             </div>
         </section>
     </main>
+    <section class="page-section" id="contact">
+            <div class="container">
+                <div class="text-center">
+                    <h3 class="section-heading text-uppercase">Condividi anche tu!</h3>
+                    <h3 class="section-subheading text-muted">Condividi le tue playlist o commenta se ti sono piaciute quelle che hai ascoltato</h3>
+                </div>
+                <!-- * * * * * * * * * * * * * * *-->
+                <!-- * * SB Forms Contact Form * *-->
+                <!-- * * * * * * * * * * * * * * *-->
+                <!-- This form is pre-integrated with SB Forms.-->
+                <!-- To make this form functional, sign up at-->
+                <!-- to get an API token!-->
+                <form id="contactForm" data-sb-form-api-token="API_TOKEN">
+                   
+                        
+                            <div class="form-group form-group-textarea mb-md-0">
+                                <!-- Message input-->
+                                <textarea class="form-control" id="message" placeholder="Inserire commento o link" data-sb-validations="required"></textarea>
+                                <div class="invalid-feedback" data-sb-feedback="message:required">È richiesto un messaggio :)</div>
+                            </div>
+                        
+                    <!-- Submit success message-->
+                    <!---->
+                    <!-- This is what your users will see when the form-->
+                    <!-- has successfully submitted-->
+                    <div class="d-none" id="submitSuccessMessage">
+                        <div class="text-center text-white mb-3">
+                            <div class="fw-bolder">Form submission successful!</div>
+                            
+                        </div>
+                    </div>
+                    <!-- Submit error message-->
+                    <!---->
+                    <!-- This is what your users will see when there is-->
+                    <!-- an error submitting the form-->
+                    <div class="d-none" id="submitErrorMessage"><div class="text-center text-danger mb-3">Ops, qualcosa è andato storto :(</div></div>
+                    <!-- Submit Button-->
+                    <div class="text-center"><button class="btn btn-primary btn-xl text-uppercase disabled" id="submitButton" type="submit">Invia messaggio</button></div>
+                </form>
+            </div>
+        </section>
            <!-- Footer-->
          <footer class="footer py-4">
             <div class="container">
